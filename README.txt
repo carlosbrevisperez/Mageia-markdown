@@ -1,6 +1,6 @@
 # Install Mageia
 
-1.-![mageia1](https://github.com/carlosbrevisperez/imagenesmageia/blob/master/mageia/Screenshot_1.png?raw=true)
+1.-![mageia1](https://raw.githubusercontent.com/carlosbrevisperez/imagenesmageia/master/mageia/Screenshot_1.png)
 
 2.-![mageia2](https://github.com/carlosbrevisperez/imagenesmageia/blob/master/mageia/Screenshot_2.png?raw=true)
 
@@ -195,7 +195,7 @@ DocumentRoot /home/jaime/www
 ```
 ##### Restart the server: go to the MCC / System / Manage system services by enabling or disabling them and stop and start the service httpd.
 
-![falló](https://raw.githubusercontent.com/carlosbrevisperez/imagenesmageia/master/ssh/1.png)
+![fallÃ³](https://raw.githubusercontent.com/carlosbrevisperez/imagenesmageia/master/ssh/1.png)
  
 To test this is working, type mysite_dev in your browser :+1:
 
@@ -369,7 +369,7 @@ To configure the respective time zone of the place where we are, we will have to
 
 **we use this syntax**
 
-hwclock –set –date="year-month-day hours:minutes:seconds"
+hwclock Â–set Â–date="year-month-day hours:minutes:seconds"
 
 ```javascript
 # hwclock --set --date="2017-11-25 16:25"
@@ -404,12 +404,12 @@ There is a tool called grub-mkconfig that will allow us to edit the existing scr
 
 ##### This is the list of commands
 
-* 00_header, es la secuencia de comandos que carga la configuración de GRUB desde / etc / default / grub , incluido el tiempo de espera, la entrada de inicio predeterminada y otros. 
-* 10_linux, carga las entradas del menú para la distribución instalada. 
+* 00_header, es la secuencia de comandos que carga la configuraciÃ³n de GRUB desde / etc / default / grub , incluido el tiempo de espera, la entrada de inicio predeterminada y otros. 
+* 10_linux, carga las entradas del menÃº para la distribuciÃ³n instalada. 
 * 20_linux_xen, 
 * 20_ppc_terminfo, 
-* 30_os-prober, es la secuencia de comandos que escaneará los discos duros para otros sistemas operativos y los agregará al menú de inicio. 
-* 40_custom, es una plantilla que puede usar para crear entradas adicionales que se agregarán al menú de inicio. 
+* 30_os-prober, es la secuencia de comandos que escanearÃ¡ los discos duros para otros sistemas operativos y los agregarÃ¡ al menÃº de inicio. 
+* 40_custom, es una plantilla que puede usar para crear entradas adicionales que se agregarÃ¡n al menÃº de inicio. 
 * 41_personalizado 
 * 90_persistente 
 * 93_memtest, carga la utilidad memtest.
