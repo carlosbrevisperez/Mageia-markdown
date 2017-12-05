@@ -1,6 +1,6 @@
 # Install Mageia
 
-1.- ![mageia1](https://raw.githubusercontent.com/carlosbrevisperez/imagenesmageia/master/mageia/Screenshot_1.png)
+![mageia1](https://raw.githubusercontent.com/carlosbrevisperez/imagenesmageia/master/mageia/Screenshot_1.png)
 
 2.-![mageia2](https://github.com/carlosbrevisperez/imagenesmageia/blob/master/mageia/Screenshot_2.png?raw=true)
 
